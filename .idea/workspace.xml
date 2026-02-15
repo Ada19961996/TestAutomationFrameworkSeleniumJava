@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af0099ba-829a-4566-8b16-872531656976" name="Changes" comment="test setup">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/AccountRegistrationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testCases/TC001_AccountRegistrationTest.java" afterDir="false" />
+    <list default="true" id="af0099ba-829a-4566-8b16-872531656976" name="Changes" comment="dependencies and page object pattern added, updated project structure">
+      <change afterPath="$PROJECT_DIR$/src/test/java/testBase/BaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/FirstTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testBase/FirstTestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/TC001_AccountRegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/TC001_AccountRegistrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,16 +38,20 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Ada/IdeaProjects/TestAutomationFrameworkSeleniumJava&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ada\IdeaProjects\TestAutomationFrameworkSeleniumJava\src\test\resources" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="TC001_AccountRegistrationTest.verify_account_registration" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestAutomationFrameworkSeleniumJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testCases.*" />
+          <option name="PATTERN" value="testBase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1770589711224</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="dependencies and page object pattern added, updated project structure">
+      <created>1770761295370</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1770761295370</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,6 +125,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="maven and selenium setup" />
     <MESSAGE value="test setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="test setup" />
+    <MESSAGE value="dependencies and page object pattern added, updated project structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="dependencies and page object pattern added, updated project structure" />
   </component>
 </project>
