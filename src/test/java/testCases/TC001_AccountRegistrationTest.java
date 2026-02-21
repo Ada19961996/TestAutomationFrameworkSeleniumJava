@@ -1,14 +1,11 @@
 package testCases;
 
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import pageObjects.AccountRegistrationPage;
 import pageObjects.HomePage;
 import testBase.BaseClass;
 
-import java.time.Duration;
 
 public class TC001_AccountRegistrationTest extends BaseClass {
     @Test
@@ -49,7 +46,7 @@ public class TC001_AccountRegistrationTest extends BaseClass {
             }
 
         }catch (Exception e){
-            logger.info("Test failed, page didn't loaded");
+            logger.info("Test failed");
             Assert.fail();
         }
         logger.info("****** TC001_AccountRegistrationTest Finished ******");

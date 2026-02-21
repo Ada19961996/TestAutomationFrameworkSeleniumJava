@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af0099ba-829a-4566-8b16-872531656976" name="Changes" comment="logging added">
-      <change afterPath="$PROJECT_DIR$/crossBrowserTesting.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/master.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="af0099ba-829a-4566-8b16-872531656976" name="Changes" comment="cross browser testing and config file added">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/MyAccountPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testCases/TC002_AccountLoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testBase/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testBase/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/master.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testCases/TC001_AccountRegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/TC001_AccountRegistrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
       <recent name="C:\Users\Ada\IdeaProjects\TestAutomationFrameworkSeleniumJava\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Ada/IdeaProjects/TestAutomationFrameworkSeleniumJava/crossBrowserTesting.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/Ada/IdeaProjects/TestAutomationFrameworkSeleniumJava/master.xml">
     <configuration name="C:/Users/Ada/IdeaProjects/TestAutomationFrameworkSeleniumJava/crossBrowserTesting.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestAutomationFrameworkSeleniumJava" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/crossBrowserTesting.xml" />
@@ -92,10 +93,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TC002_AccountLoginTest.verify_login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestAutomationFrameworkSeleniumJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testCases" />
+      <option name="MAIN_CLASS_NAME" value="testCases.TC002_AccountLoginTest" />
+      <option name="METHOD_NAME" value="verify_login" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/Ada/IdeaProjects/TestAutomationFrameworkSeleniumJava/crossBrowserTesting.xml" />
         <item itemvalue="TestNG.C:/Users/Ada/IdeaProjects/TestAutomationFrameworkSeleniumJava/master.xml" />
+        <item itemvalue="TestNG.TC002_AccountLoginTest.verify_login" />
+        <item itemvalue="TestNG.C:/Users/Ada/IdeaProjects/TestAutomationFrameworkSeleniumJava/crossBrowserTesting.xml" />
         <item itemvalue="TestNG.TC001_AccountRegistrationTest.verify_account_registration" />
       </list>
     </recent_temporary>
@@ -144,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1771183856727</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="cross browser testing and config file added">
+      <created>1771683342414</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1771683342414</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,6 +190,7 @@
     <MESSAGE value="test setup" />
     <MESSAGE value="dependencies and page object pattern added, updated project structure" />
     <MESSAGE value="logging added" />
-    <option name="LAST_COMMIT_MESSAGE" value="logging added" />
+    <MESSAGE value="cross browser testing and config file added" />
+    <option name="LAST_COMMIT_MESSAGE" value="cross browser testing and config file added" />
   </component>
 </project>
