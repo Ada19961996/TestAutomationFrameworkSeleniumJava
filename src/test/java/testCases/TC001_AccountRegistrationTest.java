@@ -2,6 +2,7 @@ package testCases;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import pageObjects.AccountRegistrationPage;
 import pageObjects.HomePage;
@@ -10,7 +11,6 @@ import testBase.BaseClass;
 import java.time.Duration;
 
 public class TC001_AccountRegistrationTest extends BaseClass {
-    public WebDriver driver;
     @Test
     public void verify_account_registration(){
         logger.info("****** Starting: TC001_AccountRegistrationTest ******");
@@ -39,11 +39,17 @@ public class TC001_AccountRegistrationTest extends BaseClass {
 
             logger.info("validating expected message");
             String confMsg = arp.getConfirmationMsg();
+            if (confMsg.equals("Your Account Has Been Created!")){
+                Assert.assertTrue(true);
 
-            Assert.assertEquals(confMsg, "Your Account Has Been Created!");
+            }else {
+                logger.info("Test failed");
+                logger.debug("Debug logs:");
+                Assert.assertTrue(false);
+            }
+
         }catch (Exception e){
-            logger.info("Test failed");
-            logger.debug("Debug logs:");
+            logger.info("Test failed, page didn't loaded");
             Assert.fail();
         }
         logger.info("****** TC001_AccountRegistrationTest Finished ******");

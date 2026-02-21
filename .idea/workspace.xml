@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af0099ba-829a-4566-8b16-872531656976" name="Changes" comment="dependencies and page object pattern added, updated project structure">
-      <change afterPath="$PROJECT_DIR$/src/test/java/testBase/BaseClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.xml" afterDir="false" />
+    <list default="true" id="af0099ba-829a-4566-8b16-872531656976" name="Changes" comment="logging added">
+      <change afterPath="$PROJECT_DIR$/crossBrowserTesting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/master.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testBase/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testBase/BaseClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testCases/TC001_AccountRegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/TC001_AccountRegistrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/log4j2.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,11 +46,34 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ada\IdeaProjects\TestAutomationFrameworkSeleniumJava" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Ada\IdeaProjects\TestAutomationFrameworkSeleniumJava\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.C:/Users/Ada/IdeaProjects/TestAutomationFrameworkSeleniumJava/crossBrowserTesting.xml">
+    <configuration name="C:/Users/Ada/IdeaProjects/TestAutomationFrameworkSeleniumJava/crossBrowserTesting.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestAutomationFrameworkSeleniumJava" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/crossBrowserTesting.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Ada/IdeaProjects/TestAutomationFrameworkSeleniumJava/master.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestAutomationFrameworkSeleniumJava" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/master.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TC001_AccountRegistrationTest.verify_account_registration" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestAutomationFrameworkSeleniumJava" />
       <extension name="coverage">
@@ -67,6 +94,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Ada/IdeaProjects/TestAutomationFrameworkSeleniumJava/crossBrowserTesting.xml" />
+        <item itemvalue="TestNG.C:/Users/Ada/IdeaProjects/TestAutomationFrameworkSeleniumJava/master.xml" />
         <item itemvalue="TestNG.TC001_AccountRegistrationTest.verify_account_registration" />
       </list>
     </recent_temporary>
@@ -108,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1770761295370</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="logging added">
+      <created>1771183856727</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1771183856727</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,6 +162,7 @@
     <MESSAGE value="maven and selenium setup" />
     <MESSAGE value="test setup" />
     <MESSAGE value="dependencies and page object pattern added, updated project structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="dependencies and page object pattern added, updated project structure" />
+    <MESSAGE value="logging added" />
+    <option name="LAST_COMMIT_MESSAGE" value="logging added" />
   </component>
 </project>
