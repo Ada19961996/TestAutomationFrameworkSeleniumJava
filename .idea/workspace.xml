@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af0099ba-829a-4566-8b16-872531656976" name="Changes" comment="cross browser testing and config file added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/MyAccountPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testCases/TC002_AccountLoginTest.java" afterDir="false" />
+    <list default="true" id="af0099ba-829a-4566-8b16-872531656976" name="Changes" comment="TC002 added">
+      <change afterPath="$PROJECT_DIR$/src/test/java/testCases/TC003_LoginDDT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/DataProviders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ExcelUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testData/Opencart_LoginData.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/master.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/TC001_AccountRegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/TC001_AccountRegistrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/MyAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/MyAccountPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +49,8 @@
       <recent name="C:\Users\Ada\IdeaProjects\TestAutomationFrameworkSeleniumJava" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ada\IdeaProjects\TestAutomationFrameworkSeleniumJava\testData" />
+      <recent name="C:\Users\Ada\IdeaProjects\TestAutomationFrameworkSeleniumJava\src\test\java\utilities" />
       <recent name="C:\Users\Ada\IdeaProjects\TestAutomationFrameworkSeleniumJava\src\test\resources" />
     </key>
   </component>
@@ -111,9 +111,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TC003_LoginDDT" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestAutomationFrameworkSeleniumJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testCases" />
+      <option name="MAIN_CLASS_NAME" value="testCases.TC003_LoginDDT" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/Ada/IdeaProjects/TestAutomationFrameworkSeleniumJava/master.xml" />
+        <item itemvalue="TestNG.TC003_LoginDDT" />
         <item itemvalue="TestNG.TC002_AccountLoginTest.verify_login" />
         <item itemvalue="TestNG.C:/Users/Ada/IdeaProjects/TestAutomationFrameworkSeleniumJava/crossBrowserTesting.xml" />
         <item itemvalue="TestNG.TC001_AccountRegistrationTest.verify_account_registration" />
@@ -171,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1771683342414</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="TC002 added">
+      <created>1771692217661</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1771692217661</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,6 +216,7 @@
     <MESSAGE value="dependencies and page object pattern added, updated project structure" />
     <MESSAGE value="logging added" />
     <MESSAGE value="cross browser testing and config file added" />
-    <option name="LAST_COMMIT_MESSAGE" value="cross browser testing and config file added" />
+    <MESSAGE value="TC002 added" />
+    <option name="LAST_COMMIT_MESSAGE" value="TC002 added" />
   </component>
 </project>

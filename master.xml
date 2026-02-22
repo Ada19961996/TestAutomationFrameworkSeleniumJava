@@ -9,11 +9,18 @@
 <!--        </classes>-->
 <!--    </test>-->
 
+<!--    <test thread-count="5" name="Test">-->
+<!--        <parameter name="os" value="Windows"/>-->
+<!--        <parameter name="browser" value="Chrome"/>-->
+<!--        <classes>-->
+<!--            <class name="testCases.TC002_AccountLoginTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
     <test thread-count="5" name="Test">
         <parameter name="os" value="Windows"/>
         <parameter name="browser" value="Chrome"/>
         <classes>
-            <class name="testCases.TC002_AccountLoginTest"/>
+            <class name="testCases.TC003_LoginDDT"/>
         </classes>
     </test>
 </suite>
