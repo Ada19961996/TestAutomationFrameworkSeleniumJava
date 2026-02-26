@@ -6,8 +6,6 @@ import org.testng.annotations.DataProvider;
 
 public class DataProviders {
 
-    //DataProvider 1
-
     @DataProvider(name="LoginData")
     public Object [][] getData() throws IOException
     {
@@ -31,9 +29,4 @@ public class DataProviders {
 
     }
 
-    //DataProvider 2
-
-    //DataProvider 3
-
-    //DataProvider 4
 }

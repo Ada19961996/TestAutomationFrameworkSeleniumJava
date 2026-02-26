@@ -12,7 +12,7 @@ import utilities.DataProviders;
 public class TC003_LoginDDT extends BaseClass
 {
 
-    @Test(dataProvider="LoginData",dataProviderClass=DataProviders.class)
+    @Test(dataProvider="LoginData",dataProviderClass=DataProviders.class, groups = {"DDT", "master"})
     public void verify_loginDDT(String email, String password, String exp)
     {
         logger.info("**** Starting TC003_LoginDDT *****");
